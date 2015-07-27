@@ -18,6 +18,7 @@ text-align: center;
 	hieght: 25%;
 	width: 25%;
 	align-self: left;
+	padding-top: 20px;
 }
 
 #img2 {
@@ -48,13 +49,6 @@ input[type='submit'] {
 	text-align: left;
 	color: grey;
 	opacity:0.9;
-	border-image: url(images/chalk-border.png) 20 20 20 20 repeat repeat;
-    -moz-border-image: url(http://www.gravityworksdesign.com/portals/0/presentation/images/chalk-border.png) 20 20 20 20 repeat 
-    repeat;
-    -webkit-border-image: url(http://www.gravityworksdesign.com/portals/0/presentation/images/chalk-border.png) 20 20 20 20 repeat 
-    repeat;
-    border: solid transparent;
-    border-width: 20px;
 }
 
 
@@ -117,6 +111,7 @@ a {
 
 #about ul{
 	font-size: 40px;
+	list-style-type: disc
 	}
 
 
@@ -125,6 +120,7 @@ a {
 	width: 10%;
 	height: 10%;
 	border: 5px groove grey;
+	display: none;
 	}
 
 
