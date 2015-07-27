@@ -14,11 +14,18 @@ p {
 text-align: center;
 }
 
-img {
+#img {
 	hieght: 25%;
 	width: 25%;
 	align-self: left;
 }
+
+#img2 {
+	float: right !important;
+	hieght: 5%;
+	width: 5%;
+}
+
 
 input {
     border: 0;
@@ -51,17 +58,29 @@ input[type='submit'] {
 }
 
 
-#title, .navbar li{
+#title, .navbar li, .navbar  p{
 	display:inline;
 }
 
+.navbar  p{
+	color: grey;
+	float: right !important;
+	padding-right: 50px;
+
+}
+
 .navbar #title {
-	padding-right: 20px;
+	padding-right: 50px;
 	color: white
+}
+
+.navbar li {
+	padding-right: 20px;
 }
 
 ul {
 	list-style-type:none;
+	
 }
 
 a {
@@ -86,6 +105,28 @@ a {
 	width: 75%;
 	margin: auto;
 }
+
+#about {
+	z-index: -1;
+	background-color: white;
+	opacity:0.8;
+	font-family: 'RiseStarHandRegular';
+	width: 75%;
+	margin: auto;
+}
+
+#about ul{
+	font-size: 40px;
+	}
+
+
+
+#about #jiwon{
+	width: 10%;
+	height: 10%;
+	border: 5px groove grey;
+	}
+
 
 #back {
 	z-index: -1;
@@ -118,3 +159,19 @@ h1 {
 h2 {
 	font-size: 12px;
 }
+
+#follow-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+padding-right: 20px;
+}
+
+
+
+
+
+
+
