@@ -1,0 +1,120 @@
+body {
+        text-align: center;
+        background: url('http://www.duartconsultants.com/wp-content/uploads/2015/01/80005000_3.jpg');
+        font-family: Helvetica;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+
+p {
+    font-size: 24px;
+    color: black;
+text-align: center;
+}
+
+img {
+	hieght: 25%;
+	width: 25%;
+	align-self: left;
+}
+
+input {
+    border: 0;
+    padding: 12px;
+    font-size: 18px;
+}
+
+input[type='submit'] {
+    background: limegreen;
+}
+
+.navbar {
+ 	z-index: 10;
+	background-color: #1b1b1b;
+	position: fixed;
+	width: 100%;
+	padding-top: 4px; 
+	padding-bottom: 4px;
+	padding-left: 0px;
+	text-align: left;
+	color: grey;
+	opacity:0.9;
+	border-image: url(images/chalk-border.png) 20 20 20 20 repeat repeat;
+    -moz-border-image: url(http://www.gravityworksdesign.com/portals/0/presentation/images/chalk-border.png) 20 20 20 20 repeat 
+    repeat;
+    -webkit-border-image: url(http://www.gravityworksdesign.com/portals/0/presentation/images/chalk-border.png) 20 20 20 20 repeat 
+    repeat;
+    border: solid transparent;
+    border-width: 20px;
+}
+
+
+#title, .navbar li{
+	display:inline;
+}
+
+.navbar #title {
+	padding-right: 20px;
+	color: white
+}
+
+ul {
+	list-style-type:none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#benefits {
+	z-index: -1;
+	background-color: grey;
+	opacity:0.8;
+	font-family: 'RiseStarHandRegular';
+	width: 50%;
+	margin: auto;
+}
+
+#welcome {
+	z-index: -1;
+	background-color: white;
+	opacity:0.8;
+	font-family: 'RiseStarHandRegular';
+	width: 75%;
+	margin: auto;
+}
+
+#back {
+	z-index: -1;
+	background-color: white;
+  	opacity: 0.5;
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+}
+
+#esub {
+  position: relative;
+	color: black;
+	
+}
+
+
+#benefits li{
+	text-align: center;
+	font-size: 30px;
+}
+
+a:hover {
+    color: blue;
+}
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 12px;
+}
