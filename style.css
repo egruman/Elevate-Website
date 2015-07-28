@@ -102,7 +102,7 @@ a {
 
 #about {
 	z-index: -1;
-	background-color: white;
+	background-color: grey;
 	opacity:0.8;
 	font-family: 'RiseStarHandRegular';
 	width: 75%;
@@ -114,6 +114,15 @@ a {
 	list-style-type: disc
 	}
 
+#goal {
+	z-index: -1;
+	background-color: white;
+	opacity:0.8;
+	font-family: 'RiseStarHandRegular';
+	width: 75%;
+	margin: auto;
+
+	}
 
 
 #about #jiwon{
